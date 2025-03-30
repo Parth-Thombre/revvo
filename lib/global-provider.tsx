@@ -41,7 +41,7 @@ export const GlobalProvider = ({ children }: { children: ReactNode }) =>
     }}>
       {children}
     </GlobalContext.Provider>
-  )
+  );
 
 }
 

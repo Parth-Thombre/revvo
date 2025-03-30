@@ -33,14 +33,14 @@ const SignIn = () => {
           
           <View className='px-10'>
             <Text className='text-base text-center uppercase font-rubik text-black-200'>
-              Welcome to Wics
+              Welcome to Revvo
             </Text>
             <Text className='text-3xl font-rubik-bold text-black-300 text-center mt-2'>
               Lets get you closer to {'\n'}
-              <Text className="text-primary-300">Your Ideal Home</Text>
+              <Text className="text-primary-300">Your Desired Store</Text>
             </Text>
             <Text className="text-lg font-rubik text-black-200 text-center mt-12">
-              Login to Wics with Google
+              Login to Revvo with Google
             </Text>
             <TouchableOpacity onPress={handleLogin} className='bg-white shadow-md shadow-zinc-300 rounded-full w-full py-4 mt-5'>
               <View className='flex flex-row items-center justify-center'>
