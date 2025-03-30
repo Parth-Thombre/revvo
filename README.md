@@ -1,19 +1,33 @@
-# Welcome to your Expo app 👋
+# Welcome to Revvo! 👋
+WiCS Hackathon '25  
+Team: Ctrl-Alt-Del  
+Members: Atharva Date, Parth Thombre, Manveer Saini<br><br>
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## What is Revvo?
+Revvo is a mobile app that provides a seamless digital alternative to inconvenient and outdated traditional in-mall directories, offering exact location assistance,  store information, operating hours, and reviews — all at your fingertips. 
+Users can explore mall stores by category, locate them effortlessly, and plan their visit with ease. No more wandering aimlessly — just a smarter, more convenient way to shop!<br><br>
 
 ## Get started
 
-1. Install dependencies
-
+1. Clone the repository
+   ```bash
+   git clone https://github.com/Parth-Thombre/revvo.git
+   ```
+   
+2. Open the project folder
+   ```bash
+   cd revvo
+   ```
+   
+3. Install dependencies
    ```bash
    npm install
    ```
 
-2. Start the app
+4. Start the app
 
    ```bash
-    npx expo start
+   npx expo start
    ```
 
 In the output, you'll find options to open the app in a
@@ -23,28 +37,11 @@ In the output, you'll find options to open the app in a
 - [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
 - [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Revvo uses [file-based routing](https://docs.expo.dev/router/introduction).<br><br>
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Tech Stack
+- Frontend: React Native
+- Backend: Appwrite DB
+- Styling: Tailwind CSS
+- Google Authentication: Google Cloud
+- Mobile Application Testing: Xcode (On MacOS devices), Expo (On Windows devices for different mobile devices)
